@@ -1,0 +1,4 @@
+rq
+psycopg2
+requests
+bs4
