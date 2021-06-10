@@ -1,4 +1,4 @@
-I'm still working on this project. Thus this repository will be updated regularly!
+Project is still in progress. Thus this repository will be updated regularly!
 
 # Web-Scraping/Email-Automation
 Sends email every time website uploads new announcements.
