@@ -1,7 +1,7 @@
 # Web-Scraping/Email-Automation
 Sends email every time website uploads new announcement.
 
-# Technologies used
+## Technologies used
 Web-Scraping: bs4, requests
 
 Email-Automation: smtplib, ssl, MIMEText & MIMTEMultipart
@@ -9,7 +9,7 @@ Email-Automation: smtplib, ssl, MIMEText & MIMTEMultipart
 Database: SQL(PostgreSQL) -> psycopg2
 
 
-# General Idea
+## General Structure
 Step #1: Scrapes website and fetches uploaded announcements (saves them in a database).
 
 Step #2: x minutes later #1 is repeated and a list of the newly dowloaded announcements is created.
@@ -19,7 +19,7 @@ Step #3: if any new announcements are found, an automated email is sent to notif
 #2 and #3 repeat.
 
 
-# File description
+## File description
 STANDARD.py(ignored): Connects with postgresql database. Fetches announcements from website. Inserts them into the database (as text). Also contains some notes (sql queries for testing purposes).
 
 functions.py: Contains function get_content() that fetches announcements from website.
