@@ -1,5 +1,5 @@
 # Web-Scraping/Email-Automation
-Sends email every time website uploads new announcements.
+Sends email every time website uploads new announcement.
 
 # Technologies used
 Web-Scraping: bs4, requests
