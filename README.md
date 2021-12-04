@@ -1,12 +1,10 @@
 # Web-Scraping/Email-Automation
 Sends email every time website uploads new announcement.
 
-## Technologies used
-Web-Scraping: bs4, requests
-
-Email-Automation: smtplib, ssl, MIMEText & MIMTEMultipart
-
-Database: SQL(PostgreSQL) -> psycopg2
+## Tools used
+*webscraping: bs4, requests
+*emails: smtplib
+*database: psycopg2
 
 
 ## General Structure
