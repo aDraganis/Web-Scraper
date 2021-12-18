@@ -9,5 +9,5 @@ Sends email every time website uploads new announcement.
 
 ## General Idea
 1. Scrapes website and fetches uploaded announcements (stores them in a database).
-2. x minutes later 1. is repeated and a list of the newly dowloaded announcements is created.
+2. x minutes later 1. is repeated and a list of the newly dowloaded announcements is created and compared to the old ones.
 3. Ιf any new announcements are found, an automated email is sent to notify the user.
